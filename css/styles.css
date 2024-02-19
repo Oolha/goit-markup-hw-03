@@ -41,6 +41,7 @@ align-items: center;
 }
 .menu {
     display: flex;
+    gap: 40px;
 }
 .menu-link {
     font-family: "Roboto", sans-serif;
@@ -49,7 +50,6 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-right: 40px;
     padding: 24px 0;
     display: block;
 }
@@ -85,6 +85,9 @@ align-items: center;
     padding: 24px 0;
     display: block;
 }
+.contact-list-link:last-child {
+    margin-right: 0;
+}
 .contact-page {
     font-style: normal;
     display: flex;
@@ -94,7 +97,9 @@ align-items: center;
 .contact-list-link:focus {
     color: #404bbf;
 }
-
+.hero section {
+    padding: 188px 0;
+}
 .hero {
     background-color: #2e2f42;
 }
@@ -156,6 +161,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 .features-list-item {
     width: calc((100%-72px) / 4);
@@ -166,6 +172,7 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-top: 0;
 }
 .team {
     background-color: #F4F4FD;
@@ -173,7 +180,7 @@ color: #2e2f42;
 .team-list-item {
     background-color: #FFFFFF
 }
-     .section-team-title {
+.section-team-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
@@ -184,7 +191,7 @@ color: #2e2f42;
     color: #2e2f42;
     margin-bottom: 72px;
      }
-    .team-list-title {
+.team-list-title {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -192,16 +199,18 @@ color: #2e2f42;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .team-list {
     display: flex;
     gap: 24px;
 }
-
+.empl {
+    padding: 32px 0;
+}
 .team-list-item {
     width: calc((100%-72px) / 4);
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
 }
   .team-list-text {
     font-family: "Roboto", sans-serif;
